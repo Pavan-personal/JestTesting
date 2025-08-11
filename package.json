@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"    
+    "test": "jest",
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "dev": "ts-node --watch src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +18,8 @@
   },
   "devDependencies": {
     "@jest/globals": "^30.0.5",
-    "ts-jest": "^29.4.1"
+    "ts-jest": "^29.4.1",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.0.0"
   }
 }
